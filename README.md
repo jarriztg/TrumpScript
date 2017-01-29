@@ -16,7 +16,7 @@ git clone https://github.com/samshadwell/TrumpScript.git
 Add the TrumpScript root directory to your system `PATH` using one of the two following techniques
 
 1. Temporary: Write `cd TrumpScript; export PATH=$PATH:`pwd`/bin` to terminal.
-2. Permanent: Append `export PATH=$PATH:/path/to/TrumpScript/bin` to the end of your `~/.bashrc` file.
+2. Permanent: Append `alias TRUMP='/path/to/TrumpScript/bin/TRUMP'` to the end of your `~/.bashrc` file.
 
 ## Usage
 * Write a TrumpScript file following the syntax we've specified (good luck).
